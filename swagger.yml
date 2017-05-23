@@ -2,13 +2,13 @@ swagger: '2.0'
 info:
   version: 0.1.0
   title: Simple To Do List API
-securityDefinitions:
-  key:
-    type: apiKey
-    in: header
-    name: x-todolist-token
-security:
-  - key: []
+#securityDefinitions:
+#  key:
+#    type: apiKey
+#    in: header
+#    name: x-todolist-token
+#security:
+#  - key: []
 consumes:
   - application/io.swagger.examples.todo-list.v1+json
 produces:
@@ -24,26 +24,26 @@ paths:
       tags: ["todos"]
       operationId: find
       parameters:
-        - name: limit
-          in: formData
-          type: integer
-          format: int32
-          required: true
-          allowEmptyValue: true
+#        - name: limit
+#          in: formData
+#          type: integer
+#          format: int32
+#          required: true
+#          allowEmptyValue: true
         - name: "X-Rate-Limit"
           in: header
           type: integer
           format: int32
           required: true
-        - name: tags
-          in: formData
-          type: array
-          collectionFormat: multi
-          allowEmptyValue: true
-          items:
-            type: integer
-            format: int32
-          required: true
+#        - name: tags
+#          in: formData
+#          type: array
+#          collectionFormat: multi
+#          allowEmptyValue: true
+#          items:
+#            type: integer
+#            format: int32
+#          required: true
       responses:
         '200':
           description: OK
