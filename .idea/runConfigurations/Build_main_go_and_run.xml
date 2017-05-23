@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Build main.go and run" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="goSwaggerDemo" />
+    <working_directory value="$PROJECT_DIR$/" />
+    <go_parameters value="-i" />
+    <parameters value="--scheme=http --port=8080" />
+    <filePath value="$PROJECT_DIR$/src/server/cmd/todo-list-server/main.go" />
+    <kind value="FILE" />
+    <method />
+  </configuration>
+</component>

@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TestGetTodoList in todo_list_client_test.go" type="GoTestRunConfiguration" factoryName="Go Test">
+    <module name="goSwaggerDemo" />
+    <working_directory value="$PROJECT_DIR$/src/client" />
+    <go_parameters value="-i" />
+    <framework value="gotest" />
+    <kind value="PACKAGE" />
+    <package value="github.com/windperson/goSwaggerDemo/src/client" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <pattern value="^TestGetTodoList$" />
+    <method />
+  </configuration>
+</component>
